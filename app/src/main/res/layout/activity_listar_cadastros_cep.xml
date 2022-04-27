@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListarCadastrosCEP">
+
+    <TextView
+        android:id="@+id/lsCEP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="CEP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lsEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTADO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lsCEP" />
+
+    <TextView
+        android:id="@+id/lsCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIDADE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lsEstado" />
+
+    <TextView
+        android:id="@+id/lsBairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAIRRO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lsCidade" />
+
+    <TextView
+        android:id="@+id/lsRua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lsBairro" />
+
+    <TextView
+        android:id="@+id/lsNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMERO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lsRua" />
+
+    <TextView
+        android:id="@+id/lsComplemento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPLEMENTO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lsNumero" />
+</androidx.constraintlayout.widget.ConstraintLayout>
